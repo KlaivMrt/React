@@ -1,17 +1,13 @@
 import React from "react";
 
+
 function ChoicesField({choices, choose}){
+
     return(
         <div>
-            <ul>
-                {choices.map((choice, index) => <li
-                    key={index}
-                    className={"choice"}
-                    id={index.toString()}
-                    onClick={() => choose(index)}> <hr/> {choice}
-                </li> )}
-            </ul>
-
+            {choices.map((choice, index) => <div  key={index} ><br/><hr/><div>
+                {choice}&nbsp;&nbsp;&nbsp;&nbsp;<button onClick={() => choose(index)}>Select</button>
+            </div><hr/><br/></div>)}
         </div>
     )
 }
