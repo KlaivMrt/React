@@ -1,0 +1,48 @@
+#root{
+    height: 100vh;
+    overflow: auto;
+}
+
+/*Context Menu*/
+#menu{
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px 0 5px 0;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+/*    absolute positioning*/
+    position: absolute;
+    list-style: none;
+    box-shadow: 0 0 20px 0 #000;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+
+/*Welcome Component*/
+#welcome_container{
+    height: 100%;
+    overflow: auto;
+}
+
+#manage_archive_btn{
+    height: 3rem;
+    font-size: 1.7rem;
+}
+
+/*Grid Component*/
+
+/*Main container*/
+#grid_container{
+    height: 90%;
+    overflow: auto;
+}
+
+/*Container responsible for the fields*/
+#fields_container{
+    height: 90%;
+    overflow: auto;
+}
