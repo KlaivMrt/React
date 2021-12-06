@@ -1,0 +1,40 @@
+@media (min-width: 65vw){
+    .container-xl{
+        max-width: 90vw;
+    }
+}
+
+/*Field Component-----------------------------------*/
+
+/*Main Container*/
+#field_main{
+    height: 90%;
+    overflow: auto;
+}
+
+#actions_container{
+    height: 80%;
+    overflow: auto;
+}
+
+#field_name_container{
+    height: 9%;
+    margin-bottom: 10px;
+}
+
+.action{
+    height: 40px;
+    width: 150px;
+    margin: 15px 15px;
+    background: #343434;
+    color: black;
+}
+
+.action:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 25vw;
+    font-size: 1vw;
+}

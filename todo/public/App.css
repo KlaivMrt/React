@@ -3,7 +3,7 @@
     overflow: auto;
 }
 
-/*Context Menu*/
+/*Context Menu--------------------------------------*/
 #menu{
     font-size: 14px;
     color: #000;
@@ -22,7 +22,7 @@
 }
 
 
-/*Welcome Component*/
+/*Welcome Component---------------------------------*/
 #welcome_container{
     height: 100%;
     overflow: auto;
@@ -33,16 +33,16 @@
     font-size: 1.7rem;
 }
 
-/*Grid Component*/
+/*Grid Component------------------------------------*/
 
 /*Main container*/
-#grid_container{
+#grid_main{
     height: 90%;
     overflow: auto;
 }
 
 /*Container responsible for the fields*/
-#fields_container{
+#grid_container{
     height: 90%;
     overflow: auto;
 }

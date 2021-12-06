@@ -1,0 +1,17 @@
+@media (min-width: 65vw){
+    .container-xl{
+        max-width: 90vw;
+    }
+}
+
+/*Welcome Component---------------------------------*/
+#welcome_container{
+    height: 100%;
+    overflow: auto;
+}
+
+#manage_archive_btn{
+    height: 3rem;
+    font-size: 1.7rem;
+}
+

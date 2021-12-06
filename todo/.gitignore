@@ -35,4 +35,4 @@ try_context_menu_2.html
 ./components/Menus/ContextMenu.js
 ./components/Menus/styles/ContextMenu_style.css
 
-./public/App.css
+/public/App.css
