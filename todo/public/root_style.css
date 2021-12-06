@@ -1,0 +1,11 @@
+#root{
+    height: 100vh;
+    /*width: 100vw;*/
+    overflow: auto;
+}
+
+@media (min-width: 65vw){
+    .container-xl{
+        max-width: 90vw;
+    }
+}
