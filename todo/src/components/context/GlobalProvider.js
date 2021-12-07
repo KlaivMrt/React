@@ -11,8 +11,7 @@ const GlobalProvider = ({children}) => {
 
     let navigate = useNavigate()
 
-    const saveAction = (key) => {
-        if (key === "Enter"){
+    const saveAction = () => {
             let actionName = document.getElementById("action_name")
             let desc = document.getElementById("desc")
             const input = document.getElementById("input")
@@ -25,7 +24,7 @@ const GlobalProvider = ({children}) => {
 
             for (let action of newField["actions"]){
                 if (action["name"] === newAction["name"]){
-                    action = Object.assign({}, newAction)
+                    action["desc"] = newAction["desc"].slice()
                     console.log(newAction)
                     console.log(action)
                     setCurrentAction(newAction)
@@ -46,7 +45,7 @@ const GlobalProvider = ({children}) => {
             input.classList.remove("visible")
         }
 
-    }
+
 
 
     const saveField = () => {

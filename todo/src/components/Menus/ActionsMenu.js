@@ -101,10 +101,11 @@ const ActionsMenu = () => {
                 </div>
 
                 <div id={"desc_container"} className={"d-flex align-items-center justify-content-center"}>
-                <textarea  id={"desc"} cols="30" rows="2" className={"mb-md-2 py-0"} onKeyDown={({key}) => context.saveAction(key)}>
-                    {showDesc()}
-                </textarea>
+                    <textarea  id={"desc"} cols="30" rows="2" className={"mb-md-2 py-0"}>
+                        {showDesc()}
+                    </textarea>
                 </div>
+                <button onClick={context.saveAction}>Save</button>
             </div>
 
         </div>
