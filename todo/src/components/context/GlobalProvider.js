@@ -15,12 +15,26 @@ const GlobalProvider = ({children}) => {
         if (key === "Enter"){
             let actionName = document.getElementById("action_name")
             let desc = document.getElementById("desc")
+            const input = document.getElementById("input")
 
             let newAction = Object.assign({}, currentAction)
             let newField = Object.assign({}, currentField)
 
             newAction["name"] = actionName.innerText
             newAction["desc"] = desc.value
+
+            for (let action of newField["actions"]){
+                if (action["name"] === newAction["name"]){
+                    action = Object.assign({}, newAction)
+                    console.log(newAction)
+                    console.log(action)
+                    setCurrentAction(newAction)
+                    setCurrentField(newField)
+                    desc.value = null
+                    input.classList.remove("visible")
+                    return;
+                }
+            }
             newField["actions"].push(newAction)
             //--------------------------
             setCurrentAction(newAction)
@@ -29,8 +43,6 @@ const GlobalProvider = ({children}) => {
 
             // desc.innerText = null
             desc.value = null
-
-            const input = document.getElementById("input")
             input.classList.remove("visible")
         }
 

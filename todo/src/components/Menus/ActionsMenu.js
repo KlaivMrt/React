@@ -78,7 +78,8 @@ const ActionsMenu = () => {
     })
 
     const showDesc = () => {
-        if (context.currentAction["desc"]) return context.currentAction["desc"]
+        // if (context.currentAction["desc"])
+            return context.currentAction["desc"]
     }
 
     return(
