@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb05288d-3004-466c-8672-0a8de55376c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../todo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/public/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/public/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/public/root_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/Grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/Menus/ActionsMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/Menus/GridMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/Menus/styles/Menu_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/Welcome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/context/GlobalProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/styles/Field_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/styles/Form_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/styles/Grid_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/components/styles/Welcome_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638629515255</updated>
       <workItem from="1638629516819" duration="11000" />
+      <workItem from="1641550512096" duration="2000" />
     </task>
     <servers />
   </component>
